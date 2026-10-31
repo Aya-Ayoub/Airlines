@@ -1,0 +1,19 @@
+=== BEFORE ===
+1.5G	total
+raw lines (including 1 header per file): 16984357
+=== CLEANING ===
+total                     16984354
+headers                   3
+bad_columns               0
+bad_month                 0
+bad_carrier_or_airport    0
+bad_cancelled_flag        0
+na_delay                  39019
+bad_number                0
+kept                      16945335
+kept_cancelled            347124
+=== REMOVING DUPLICATES ===
+=== AFTER ===
+records after dedupe: 16945295
+-rw-r--r-- 1 mselh mselh 639M Oct 31 14:10 data/airline_clean.csv
+carriers: 21   airports: 311
