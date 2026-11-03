@@ -1,3 +1,5 @@
 data/raw/
 data/*.csv
 build/
+results/run.*
+results/ref_seq.*
